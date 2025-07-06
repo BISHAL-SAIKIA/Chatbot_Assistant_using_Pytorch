@@ -3,32 +3,23 @@ An AI chatbot built using PyTorch, NLTK, and a custom intents-based NLP model. T
 ⚠️ Currently Under Development: Model improvements, better accuracy, and additional features will be added in future updates.
 
 # 📂 Project Structure
-graphql
-Copy
-Edit
-.
-├── chatbot.py            # Main chatbot code
-├── intents.json          # Dataset containing patterns, intents, and responses
-├── chatbot_model.pth     # Trained PyTorch model (saved after training)
-├── dimensions.json       # Stores input/output size metadata
-└── README.md             # Project documentation
-
-
----
-
-
----
+ ```bash 📁 chatbot-project/ ├── chatbot.py # Main chatbot implementation 
+├── intents.json # Intent definitions (tags, patterns, responses)
+├── chatbot_model.pth # Trained PyTorch model (generated after training)
+├── dimensions.json # Metadata (input/output dimensions of model)
+├── README.md # Project documentation ```
 
 ## 🧠 Features
 
-- **Tokenization & Lemmatization** using NLTK
-- **Bag-of-Words** vectorization
-- **Feedforward Neural Network** with ReLU, Dropout
-- **Custom Intent-to-Function Mapping**
-- **Train, Save, Load** model functionality
-- **CLI-based interaction loop**
+- **Tokenization & Lemmatization using NLTK
+- **Bag-of-Words for vectorization
+- **Feedforward Neural Network with ReLU, Dropout
+- **Custom Intent-to-Function Mapping
+- **Train, Save, Load model functionality
+- **CLI-based interaction loop
 
 ---
+```
 
 ## 🚀 Getting Started
 
